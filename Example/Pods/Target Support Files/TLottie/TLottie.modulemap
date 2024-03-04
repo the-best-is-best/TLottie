@@ -1,0 +1,6 @@
+framework module TLottie {
+  umbrella header "TLottie-umbrella.h"
+
+  export *
+  module * { export * }
+}

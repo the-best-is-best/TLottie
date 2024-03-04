@@ -1,6 +1,5 @@
 # TLottie
 
-[![CI Status](https://img.shields.io/travis/72160249/TLottie.svg?style=flat)](https://travis-ci.org/72160249/TLottie)
 [![Version](https://img.shields.io/cocoapods/v/TLottie.svg?style=flat)](https://cocoapods.org/pods/TLottie)
 [![License](https://img.shields.io/cocoapods/l/TLottie.svg?style=flat)](https://cocoapods.org/pods/TLottie)
 [![Platform](https://img.shields.io/cocoapods/p/TLottie.svg?style=flat)](https://cocoapods.org/pods/TLottie)
@@ -9,7 +8,24 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```swift
+import SwiftUI
+import TLottie
+
+struct MainView: View {
+    var body: some View {
+        TLottieView(loopMode: .loop, contentMode: .scaleAspectFit , fileName: "loading" ).frame(width: 160, height: 60, alignment: .center)
+    }
+}
+
+#Preview {
+    MainView()
+}
+
+```
+
 ## Requirements
+ pod lottie-ios
 
 ## Installation
 
@@ -22,7 +38,7 @@ pod 'TLottie'
 
 ## Author
 
-72160249, michelle.raouf@outlook.com
+the-best-is-best, michelle.raouf@outlook.com
 
 ## License
 

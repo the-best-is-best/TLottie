@@ -1,0 +1,23 @@
+PODS:
+  - lottie-ios (4.4.1)
+  - TLottie (0.1.0):
+    - lottie-ios
+
+DEPENDENCIES:
+  - TLottie (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  TLottie:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  lottie-ios: e047b1d2e6239b787cc5e9755b988869cf190494
+  TLottie: 423638c7a1373538d8517cf9c4b8825a5d5615ad
+
+PODFILE CHECKSUM: 46ec10e263c0e6a783d064a9306ede2a5303ec4d
+
+COCOAPODS: 1.15.2

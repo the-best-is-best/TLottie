@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TLottie'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TLottie.'
+  s.summary          = 'Extenstion for lottie'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Easy use lottie"
 
-  s.homepage         = 'https://github.com/72160249/TLottie'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '72160249' => 'michelle.raouf@outlook.com' }
-  s.source           = { :git => 'https://github.com/72160249/TLottie.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
+ 
+ s.homepage         = 'https://github.com/the-best-is-best/TButtonLoader'
+ # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+ s.license          = { :type => 'MIT', :file => 'LICENSE' }
+ s.author           = { 'the-best-is-best' => 'michelle.raouf@outlook.com' }
+ s.source           = { :git => 'https://github.com/the-best-is-best/TButtonLoader.git', :tag => s.version.to_s }
+ # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+ s.swift_version            = '5.5'
+ s.ios.deployment_target = '14.0'
 
   s.source_files = 'TLottie/Classes/**/*'
   
@@ -38,5 +37,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'lottie-ios'
 end

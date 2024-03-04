@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  TLottie
 //
-//  Created by 72160249 on 03/04/2024.
-//  Copyright (c) 2024 72160249. All rights reserved.
+//  Created by the-best-is-best on 03/04/2024.
+//  Copyright (c) 2024 the-best-is-best. All rights reserved.
 //
 
 import UIKit
