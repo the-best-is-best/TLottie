@@ -11,12 +11,12 @@ public struct TLottieView: UIViewRepresentable {
   public typealias UIViewType = UIView
   public let loopMode: LottieLoopMode
   public let contentMode: UIView.ContentMode
-  public let fileName: String
+  public let filePath: String
 
-  public init(loopMode: LottieLoopMode = .loop, contentMode: UIView.ContentMode, fileName: String) {
+  public init(loopMode: LottieLoopMode = .loop, contentMode: UIView.ContentMode, filePath: String) {
     self.loopMode = loopMode
     self.contentMode = contentMode
-    self.fileName = fileName
+    self.filePath = filePath
   }
 
   public func updateUIView(_ uiView: UIViewType, context: Context) {
@@ -25,7 +25,7 @@ public struct TLottieView: UIViewRepresentable {
 
   public func makeUIView(context: UIViewRepresentableContext<TLottieView>) -> UIView {
     let view = UIView(frame: .zero)
-    let animationView = LottieAnimationView(name: fileName)
+    let animationView = LottieAnimationView(name: filePath)
     animationView.contentMode = contentMode
     animationView.loopMode = loopMode
     animationView.play()
