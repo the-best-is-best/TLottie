@@ -11,7 +11,7 @@ import TLottie
 
 struct MainView: View {
     var body: some View {
-        TLottieView(loopMode: .loop, contentMode: .scaleAspectFit , fileName: "loading" ).frame(width: 160, height: 60, alignment: .center)
+        TLottieView(loopMode: .loop, contentMode: .scaleAspectFit , filePath: "loading" ).frame(width: 160, height: 60, alignment: .center)
     }
 }
 
