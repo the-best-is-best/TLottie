@@ -1,9 +1,9 @@
 {
   "name": "TLottie",
   "version": "0.1.0",
-  "summary": "A short description of TLottie.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/the-best-is-best/TLottie",
+  "summary": "Extenstion for lottie",
+  "description": "Easy use lottie",
+  "homepage": "https://github.com/the-best-is-best/TButtonLoader",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,14 +12,18 @@
     "the-best-is-best": "michelle.raouf@outlook.com"
   },
   "source": {
-    "git": "https://github.com/the-best-is-best/TLottie.git",
+    "git": "https://github.com/the-best-is-best/TButtonLoader.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "5.5",
   "platforms": {
     "ios": "14.0"
   },
   "source_files": "TLottie/Classes/**/*",
   "dependencies": {
-    "lottie-ios": []
-  }
+    "lottie-ios": [
+
+    ]
+  },
+  "swift_version": "5.5"
 }

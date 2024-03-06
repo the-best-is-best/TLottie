@@ -4,6 +4,7 @@ platform :ios, '14.0'
 
 target 'TLottie_Example' do
   pod 'TLottie', :path => '../'
+  pod 'lottie-ios'
 
   target 'TLottie_Tests' do
     inherit! :search_paths
@@ -11,3 +12,5 @@ target 'TLottie_Example' do
     
   end
 end
+
+

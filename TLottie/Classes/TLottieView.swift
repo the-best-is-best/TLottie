@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Lottie
+
 public struct TLottieView: UIViewRepresentable {
   public typealias UIViewType = UIView
   public let loopMode: LottieLoopMode
@@ -44,6 +45,6 @@ public struct TLottieView: UIViewRepresentable {
 
 
 #Preview {
-    TLottieView(loopMode: .playOnce, contentMode: .scaleToFill ,fileName: "logo" ).frame(width: UIScreen.main.bounds.width,height: UIScreen.main.bounds.height, alignment: Alignment.center)
+    TLottieView(loopMode: .playOnce, contentMode: .scaleToFill ,filePath: "logo" ).frame(width: UIScreen.main.bounds.width,height: UIScreen.main.bounds.height, alignment: Alignment.center)
 }
 
