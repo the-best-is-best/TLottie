@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
   s.description      = "Easy use lottie"
 
  
- s.homepage         = 'https://github.com/the-best-is-best/TButtonLoader'
+ s.homepage         = 'https://github.com/the-best-is-best/TLottie'
  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
  s.license          = { :type => 'MIT', :file => 'LICENSE' }
  s.author           = { 'the-best-is-best' => 'michelle.raouf@outlook.com' }
- s.source           = { :git => 'https://github.com/the-best-is-best/TButtonLoader.git', :tag => s.version.to_s }
+ s.source           = { :git => 'https://github.com/the-best-is-best/TLottie.git', :tag => s.version.to_s }
  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
  s.swift_version            = '5.5'
  s.ios.deployment_target = '14.0'
